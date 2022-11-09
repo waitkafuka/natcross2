@@ -21,6 +21,8 @@
 # 修改ServerApp.java中serviceIp为公网服务器的IP
 
 mvn clean compile package -PserverApp
+
+nohup java -jar ServerApp.jar -listenPort 8013 &
 ```
 
 客户端-ClientApp打包：

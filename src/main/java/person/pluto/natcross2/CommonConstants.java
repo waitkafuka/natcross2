@@ -10,22 +10,17 @@ package person.pluto.natcross2;
  */
 public final class CommonConstants {
 
-	// 服务端地址，支持IP或域名，这个根据服务端放的网络位置进行设置
-	public static final String serviceIp = "127.0.0.1";
-	// 客户端服务的端口
-	public static final int servicePort = 10010;
-
 	// 映射对
 	public static ListenDest[] listenDestArray = new ListenDest[] {
 			//
-			ListenDest.of(8081, "127.0.0.1", 8080),
+			ListenDest.of(8082, "127.0.0.1", 5500),
 			//
 	};
 
 	// 交互密钥 AES
 	public static final String aesKey = "8AUWlb+IWD+Fhbs0xnXCCg==";
 	// 交互签名key
-	public static final String tokenKey = "tokenKey";
+	public static final String tokenKey = "selfdefinetokenkey";
 
 	/**
 	 * <p>
